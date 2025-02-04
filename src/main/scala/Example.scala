@@ -15,7 +15,7 @@ object Example {
   val image =
     Image
       .circle(100)
-      .fillColor(Color.red)
+      .fillColor(Color.green)
       .on(Image.circle(200).fillColor(Color.aquamarine))
       .on(Image.circle(300).fillColor(Color.steelBlue))
 
